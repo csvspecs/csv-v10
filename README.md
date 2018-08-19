@@ -12,7 +12,9 @@ comma in quotes and more
 a,b,c
 1,2,3
 ```
+
 =>
+
 ``` json
 [["a", "b", "c"],
  ["1", "2", "3"]]
@@ -24,7 +26,9 @@ a,b,c
 1,2,3
 4,5,ʤ
 ```
+
 =>
+
 ``` json
 [["a", "b", "c"],
  ["1", "2", "3"],
@@ -38,13 +42,17 @@ a,b,c
 1,,
 2,3,4
 ```
+
 or
+
 ```
 a,b,c
 1,"",""
 2,3,4
 ```
+
 =>
+
 ``` json
 [["a", "b", "c"],
  ["1", "",  "" ],
@@ -58,7 +66,9 @@ a,b,c
 first,last,address,city,zip
 John,Doe,120 any st.,"Anytown, WW",08123
 ```
+
 =>
+
 ``` json
 [["first", "last", "address",     "city",        "zip"  ],
  ["John",  "Doe",  "120 any st.", "Anytown, WW", "08123"]]
@@ -72,7 +82,9 @@ a,b,c
 a time",5,6
 7,8,9
 ```
+
 =>
+
 ``` json
 [["a", "b", "c"],
  ["1", "2", "3"],
@@ -87,7 +99,9 @@ a,b
 1,"ha ""ha"" ha"
 3,4
 ```
+
 =>
+
 ``` json
 [["a", "b"],
  ["1", "ha \"ha\" ha"],
@@ -102,8 +116,10 @@ a,b
 ha"
 3,4
 ```
+
 =>
-``` json
+
+```json
 [["a", "b"],
  ["1", "ha\n\"ha\"\nha"],
  ["3", "4"]]
@@ -114,8 +130,10 @@ ha"
 key,val
 1,"{""type"": ""Point"", ""coordinates"": [102.0, 0.5]}"
 ```
+
 =>
-``` json
+
+```json
 [["key", "val"],
  ["1",   "{\"type\": \"Point\", \"coordinates\": [102.0, 0.5]}"]]
 ```
