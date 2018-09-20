@@ -1,9 +1,10 @@
 # MYSQL - CSV Dialect / Format
 
-- sep         = \t
+- sep         = tab (`\t`)
 - quote       = nil
-- escape      = \\
 - doublequote = false
+- escape      = backslash (`\`)
+- na (null values) = `\N`
 - blanks (ignore empty lines) = false
 - trim (leading and trailing spaces) = false
 
