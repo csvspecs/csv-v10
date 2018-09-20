@@ -50,4 +50,4 @@ PostgreSQL docu:
 
 Edge Cases / Open Questions:
 
-- Can values get quotes?
+- Can values get quoted e.g. enclosed in (`"..."`)?
