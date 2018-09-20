@@ -40,7 +40,8 @@ Edges Cases:
 
 Note:
 
-If you change the separator to comma (`,`) - mysql does NOT support doubleqoute but uses backslash (`\`) for escaping.
+If you change the separator to comma (`,`) - mysql does NOT support doublequote (that is, double the double quotes to escape)
+but uses "unix-style" backslash (`\`) for escaping.
 Example:
 
 ```
