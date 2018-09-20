@@ -4,6 +4,8 @@
 - quote       = nil
 - escape      = \\
 - doublequote = false
+- blanks (ignore empty lines) = false
+- trim (leading and trailing spaces) = false
 
 
 
