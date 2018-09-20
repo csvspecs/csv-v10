@@ -47,3 +47,7 @@ PostgreSQL docu:
 > since that might accidentally produce a string matching the end-of-data marker (\.) 
 > or the null string (\N by default). These strings will be recognized before any other backslash processing is done.
 
+
+Edge Cases / Open Questions:
+
+- Can values get quotes?
